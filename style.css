@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+
+*, ::after, ::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4 {
+    text-transform: capitalize;
+    line-height: 1.25;
+    letter-spacing: 1px;
+    margin-bottom: 12px;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+p {
+    color: #617d98;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to right,#9ff0ac, #94bbe9);
+    color: #102a42;
+}
+
+button {
+    font-family: 'Roboto', sans-serif;
+}
+
+main {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: #fff;
+    width: 90vw;
+    max-width: 450px;
+    padding: 24px 32px;
+    border-radius: 4px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+    margin: 80px 0;
+}
+
+img {
+    width: 75px;
+    height: 75px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 5px 15px rgb(0, 0, 0, 0.2);
+}
+
+.monstros {
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+    margin-bottom: 12px;
+}
+
+.monstros h2 {
+    margin-bottom: 5px;
+}
+
+.btn-azul {
+    display: block;
+    width: 100%;
+    background-color: #94bbe9;
+    color: #fff;
+    border-color: transparent;
+    margin: 24px auto 0 auto;
+    text-transform: capitalize;
+    font-size: 19px;
+    padding: 8px 0;
+    letter-spacing: 2px;
+    border-radius: 4px;
+    outline: 1px solid rgba(#9ff0ac);
+    cursor: pointer;
+    transition: background-color 0.3s linear, box-shadow 0.3s linear;
+}
+
+.btn-azul:hover {
+    background-color: #9ff0ac;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+}
